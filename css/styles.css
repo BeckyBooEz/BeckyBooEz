@@ -1,0 +1,54 @@
+*{
+    width: 500px;
+    background-color: black
+}
+.Contenedor-Perfil{
+    display: flex;
+    gap: 10px;
+}
+.Perfil-Columna-1{
+    display: block;
+    border-radius: 50%;
+    flex: 1; 
+}
+.Perfil-Columna-2{
+    display: flex;
+    flex: 1;
+}
+.Usuario-Botones{
+    display: flex;
+
+}
+.Informacion-Status{
+    display: flex;
+}
+.Destacadas{
+    display: flex;
+    text-align: center;
+}
+.Destacadas-Imagen{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.Panel-Nav-Perfil{
+    display: flex;
+}
+.Fotos-Panel{
+    display: flex;
+}
+.Publicaciones-Fotos{
+    padding: 10px;
+}
+.footer-1, .footer-2{
+    display: flex;
+    text-align: center;
+}
+p{
+    color: white;
+}
+
+button{
+    color: white;
+}
