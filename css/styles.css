@@ -1,0 +1,67 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+img{
+    width: 15vw;
+}
+p, ul, button{
+    font-size: 1.4vw;
+    margin-left: 5vw;
+}
+.Contenedor-Perfil{
+    display: flex;
+    justify-content: center;
+}
+.Perfil-Columna-1{
+    width: 18vw;
+    height: auto;
+    border-radius: 50%;
+}
+.Usuario-Botones{
+    display: flex;
+}
+.Informacion-Status{
+    display: flex;
+}
+.Datos-perfil{
+    padding: 30px;
+}
+.Destacadas{
+    display: flex;
+    justify-content: center;
+}
+.Destacada-Bloque{
+    width: 100VW;
+    justify-items: center;
+}
+.Destacada-Bloque p{
+    justify-content: center;
+    margin: 0px;
+}
+.Destacadas-Imagen{
+    width: 10vw;
+    height: 10vw;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.Panel-Nav-Perfil{
+    display: flex;
+    justify-content: center;
+}
+.Panel-Nav-Perfil p{
+    margin: 0px;
+    padding: 0px 50px 0px;
+}
+.Fotos-Panel{
+    display: flex;
+    justify-content: space-around;
+}
+.Publicaciones-Fotos{
+    width: 32vw;
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
