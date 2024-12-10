@@ -3,87 +3,29 @@
     margin: 0px;
     box-sizing: border-box;
 }
-body{
-    background-color: black;
-}
-img{
-    width: 15vw;
-}
-p, ul, button{
-    font-size: 1.4vw;
-    margin-left: 5vw;
-    color: white;
-}
-.Contenedor-Perfil{
+header{
+    width: 100%;
     display: flex;
     justify-content: center;
+    background-color: aqua;
 }
-.Perfil-Columna-1{
-    width: 18vw;
-    height: auto;
+header img{
+    width: 200px;
     border-radius: 50%;
 }
-.Usuario-Botones{
+header div{
+    padding-left: 75px;
+}
+.info-perfil{
     display: flex;
+    background-color: red;
+    justify-content: space-between;
 }
-.Usuario-Botones p{
-    align-content: center;
-    font-size: 5vw;
-}
-.Informacion-Status{
-    display: flex;
-}
-.Informacion-Status p{
-    font-size: 2.5vw;
-}
-.Datos-perfil{
-    padding: 30px;
-}
-.Destacadas{
-    display: flex;
-    justify-content: center;
-}
-.Destacada-Bloque{
-    width: 100VW;
-    justify-items: center;
-}
-.Destacada-Bloque p{
-    justify-content: center;
-    margin: 0px;
-}
-.Destacadas-Imagen{
-    width: 10vw;
-    height: 10vw;
-    object-fit: cover;
-    border-radius: 50%;
-}
-.Panel-Nav-Perfil{
-    display: flex;
-    justify-content: center;
-}
-.Panel-Nav-Perfil p{
-    margin: 0px;
-    padding: 0px 50px 0px;
-}
-.Fotos-Panel{
-    display: flex;
-    justify-content: space-around;
-}
-.Publicaciones-Fotos{
-    width: 32vw;
-}
-footer{
-    display: flex;
-    justify-content: center;
-}
-button{
-    background-color: rgb(0, 0, 0);
-    border-radius: 10px;
+section p{
+    font-size: 32px;
     padding: 10px;
 }
-button:hover{
-    background-color: rgb(255, 255, 255);
-    border-radius: 10px;
-    padding: 10px;
-    color: black;
+header section ul{
+    list-style: none;
+    font-size: 20px;
 }
